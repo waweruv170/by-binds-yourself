@@ -61,6 +61,10 @@ source by.fish
 
 ## Why `by`?
 
+because `by` uses native commandline buffer in contrast to `with`.
+
+This brings several advantages in a simple way.
+
 ### To bind without breaking native shell features
 
 completions, history, and so on
