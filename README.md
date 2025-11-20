@@ -30,6 +30,15 @@ Supported shells: zsh, fish
 
 ### zsh
 
+#### with [sheldon](https://sheldon.cli.rs/Introduction.html)
+
+```sh
+$ sheldon add by --git https://github.com/atusy/by-binds-yourself
+```
+
+#### manual
+
+
 ```zsh
 source by.zsh
 ```
