@@ -39,7 +39,7 @@ $ sheldon add by --git https://github.com/atusy/by-binds-yourself
 #### manual
 
 
-```zsh
+```sh
 source by.zsh
 ```
 
@@ -47,13 +47,13 @@ source by.zsh
 
 #### with [fisher](https://github.com/jorgebucaran/fisher)
 
-```
+```sh
 fisher install atusy/by-binds-yourself
 ```
 
 #### manual
 
-```fish
+```sh
 source by.fish
 ```
 
