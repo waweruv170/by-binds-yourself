@@ -1,7 +1,5 @@
 # `by` binds yourself for repeating commandline buffer
 
-Inspired by <https://github.com/mchav/with>, the program prefixing for continuous workflow using a single tool.
-
 For example, `by git` binds `git` commands so that you no longer retype `git` every time.
 
 ```sh
@@ -61,9 +59,9 @@ source by.fish
 
 ## Why `by`?
 
-because `by` uses native commandline buffer in contrast to `with`.
+This project is inspired by [mchav/with](https://github.com/mchav/with), the program prefixing for continuous workflow using a single tool.
 
-This brings several advantages in a simple way.
+To bring more flexibility, `by` is designed to use native commandline buffer.
 
 ### To bind without breaking native shell features
 
